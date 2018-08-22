@@ -10,3 +10,7 @@ function theBeatlesPlay(musicians,instruments){
   }
   return newArry;
 }
+
+function johnLennonFacts(){
+  
+}
