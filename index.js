@@ -1,7 +1,12 @@
 // add solution here
-function theBeatlesPlay(musicians,instruments){
-  var musicians = [];
-  var instruments = [];
-}
+
 var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
+function theBeatlesPlay(musicians,instruments){
+  var newArry = [];
+  for(i=0; i < musicians.length; i++){
+    newArry.push(musicians[i] + "plays" + "instruments[i]");
+  }
+  return newArry;
+}
